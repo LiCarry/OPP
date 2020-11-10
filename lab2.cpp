@@ -47,7 +47,7 @@ int main() {
 				l[j] = '#';
 				continue;
 			}
-			else if(l[j] == '#' && l[j+1] == '\n' &&  ) {
+			else if(l[j] == '#' && l[j+1] == '\n' && s[i] != '#') {
 				printf("RE\n");
 				break;
 			}
