@@ -41,8 +41,8 @@ int main() {
 	while(scanf("%s", &l) != EOF) {
 		s[0] = '#';
 		while(true) {
-			printf("l:%s\n", l);
-			printf("s:%s\n", s);
+//			printf("l:%s\n", l);
+//			printf("s:%s\n", s);
 			if(l[j] == '\r' && l[j+1] == '\n' && s[i] != '#') {
 				l[j] = '#';
 				continue;
